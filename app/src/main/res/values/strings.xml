@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name" translatable="false">CineMate</string>
+    <string name="tickets">Tickets</string>
+    <string name="poster">Poster</string>
+    <string name="history">Purchase History</string>
+    <string name="info">Info</string>
+    <string name="info_movie">Introduction: In a nearby galaxy, stars\' fate hinges on the battle against evil forces. The Galactic Republic, with valiant Jedi, fights for three years against the malevolent Dooku. Just when victory seems close, a new menace emerges – a pervasive wave of darkness engulfing the galaxy. Can new heroes rise to preserve the stellar light and defeat the encroaching shadows?</string>
+    <string name="like">like</string>
+    <string name="info_creators">•Title: Galaxy Fighter \n•Director: Alex Starlight\n•Genre: Sci-Fi/Fantasy\n•Lead Actor: Ethan Nova</string>
+    <string name="wish_list">Wish List</string>
+    <string name="creators">creators</string>
+    <string name="_return">return</string>
+    <string name="exit">Exit</string>
+    <string name="purchase_tickets">Purchase Tickets</string>
+    <string name="textViewDate">Select\nDate</string>
+    <string name="textViewDate1">dd/mm/yy</string>
+    <string name="textViewTime">Select\nTime</string>
+    <string name="textViewTime1">00 : 00 : 00</string>
+    <string name="textViewTickets">Select Tickets</string>
+    <string name="btnconfirm">Confirm</string>
+    <string name="quantity">Quantity</string>
+    <string name="SelectOption">Select Option</string>
+    <string name="warning_amount">You must select at least one card</string>
+    <string name="Ok">Ok</string>
+    <string name="DialogTitle">Message</string>
+    <string name="Thankyouforthe">Thank you for the</string>
+    <string name="category_child">Child</string>
+    <string name="category_old">Old</string>
+    <string name="category_student">Student</string>
+    <string name="price">Price</string>
+    <string name="order_details">Order details</string>
+    <string name="ticketadults">Ticket Adults</string>
+    <string name="ticketchild">Ticket Child</string>
+    <string name="ticketstudent">Ticket\nStudent</string>
+    <string name="SelectCinema">Select Cinema</string>
+    <string name="Money">$</string>
+    <string name="Cinema">Cinema</string>
+    <string name="Quantity">Quantity</string>
+    <string name="Price">Price</string>
+    <string name="TotalPrice">Total Price</string>
+    <string name="pruchaseHistory">Pruchase History</string>
+    <string name="SaveOrder">Save Order</string>
+    <string name="welcomeToCinemate">Welcome to CineMate</string>
+    <string name="rating">rating</string>
+    <string name="subtitleWelcometocinemate">The first Android app that showcases the best movie worth watching. On the poster button, you can get a first impression of the movie (intro). If you watch and enjoy it, you can hit the like button. If you want to continue watching later, you can press \'wishlist\' and share it with friends, family, or enjoy some quality time alone.\n\nOn the \'purchase ticket\' button, you can buy tickets (note that student tickets will be verified at the cinema entrance). You can check your order number and the chosen cinema in the \'purchase history\' button.\n\nFor any additional questions, feel free to contact us on Facebook at CineMate. Enjoy!\"</string>
+    <string name="stars">Stars</string>
+    <string name="SavedTo">Saved to</string>
+    <string name="fileNotFound">File not found</string>
+    <string name="ErrorWritingToFile">Error writing to file</string>
+    <string name="Error">Error</string>
+    <string name="Choose_Cinema">You forget to choose cinema</string>
+    <string name="loadBut">load order</string>
+    <string name="OrderId">Order Id</string>
+    <string name="items">"Items"</string>
+    <string name="Category">Category</string>
+    <string name="more_images">(Click on the image to view more images)</string>
+
+
+</resources>

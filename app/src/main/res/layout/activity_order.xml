@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        android:layout_gravity="center"
+        android:background="@drawable/top_of_home_background"
+        android:fitsSystemWindows="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/order_details"
+            android:textColor="@color/white"
+            android:textSize="50dp" />
+
+
+    </FrameLayout>
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_weight="0.1"/>
+
+
+    <FrameLayout
+        android:layout_width="332dp"
+        android:layout_height="464dp"
+        android:layout_gravity="center"
+        android:background="@drawable/top_of_home_background"
+        android:fitsSystemWindows="true">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="246dp"
+            android:layout_height="407dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/tickets"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/tickets"
+                android:textSize="40dp" />
+
+            <ListView
+                android:id="@+id/cinemaListView"
+                android:layout_width="wrap_content"
+                android:layout_height="289dp"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:divider="@android:color/darker_gray"
+                android:dividerHeight="1dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp" />
+
+            <TextView
+                android:id="@+id/totalPriceTextView"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:text="@string/Money"
+                android:textSize="20dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/SaveOrder"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/SaveOrder"
+        android:onClick="saveOrder"/>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_weight="0.5"/>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_weight="0.5"/>
+</LinearLayout>

@@ -1,0 +1,92 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background"
+    android:orientation="vertical"
+    android:gravity="center_vertical|bottom|center_horizontal">
+
+    <FrameLayout
+        android:layout_width="340dp"
+        android:layout_height="190dp"
+        android:background="@drawable/top_of_home_background"
+        android:fitsSystemWindows="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/order_details"
+            android:textColor="@color/white"
+            android:textSize="50dp" />
+    </FrameLayout>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_weight="0.1"/>
+
+
+    <FrameLayout
+        android:layout_width="322dp"
+        android:layout_height="485dp"
+        android:background="@drawable/top_of_home_background"
+        android:fitsSystemWindows="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="38dp"
+                android:textColor="@color/white"
+                android:text="@string/welcomeToCinemate"/>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight="0.5"
+                android:layout_below="@id/title"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title"
+                android:gravity="center"
+                android:text="@string/subtitleWelcometocinemate"
+                android:textColor="@color/white"
+                android:textSize="15dp"/>
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center|bottom"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="34dp"
+                android:numStars="5"
+                android:rating="0.0"
+                android:stepSize="1" />
+        </RelativeLayout>
+
+
+    </FrameLayout>
+
+
+    <Button
+        android:id="@+id/main_return"
+        android:layout_width="239dp"
+        android:layout_height="22dp"
+        android:layout_weight="1"
+        android:text="@string/_return"
+        app:icon="@drawable/baseline_exit_to_app_24" />
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/arrays.xml -->
+
+<resources>
+    <string-array name="category_options">
+        <item>@string/none</item>
+        <item>@string/Adult</item>
+            <item>@string/child</item>
+        <item>@string/student</item>
+    </string-array>
+    <string name="Adult">Adult</string>
+    <string name="none">Card Type</string>
+    <string name="child">Child</string>
+    <string name="student">Student</string>
+    <string name="StarlightCinemas">Starlight Cinemas</string>
+    <string name="DreamScreeTheaters">DreamScreen Theaters</string>
+    <string name="SilverHorizonCinema">Silver Horizon Cinema</string>
+    <string name="none_cinema">Select Cinema</string>
+
+
+    <string-array name="selectcinema">
+
+    <item>@string/StarlightCinemas</item>
+    <item>@string/DreamScreeTheaters</item>
+    <item>@string/SilverHorizonCinema</item>
+    </string-array>
+
+
+
+</resources>
+
+
